@@ -1,0 +1,114 @@
+@tailwind components;
+
+@layer components {
+    .btn-primary {
+        @apply
+            px-6
+            py-2.5
+            bg-blue-500
+            !text-white
+            font-medium
+            text-xs
+            leading-tight
+            uppercase
+            rounded
+            shadow-md
+            hover:bg-blue-600 hover:shadow-lg
+            focus:bg-blue-600 focus:shadow-lg focus:outline-none focus:ring-0
+            active:bg-blue-700 active:shadow-lg
+            transition
+            duration-150
+            ease-in-out;
+    }
+
+    .btn-danger {
+        @apply
+            px-6
+            py-2.5
+            bg-red-500
+            !text-white
+            font-medium
+            text-xs
+            leading-tight
+            uppercase
+            rounded
+            shadow-md
+            hover:bg-red-600 hover:shadow-lg
+            focus:bg-red-600 focus:shadow-lg focus:outline-none focus:ring-0
+            active:bg-red-700 active:shadow-lg
+            transition
+            duration-150
+            ease-in-out;
+    }
+
+    .btn-success {
+        @apply
+            px-6
+            py-2.5
+            bg-green-500
+            !text-white
+            font-medium
+            text-xs
+            leading-tight
+            uppercase
+            rounded
+            shadow-md
+            hover:bg-green-600 hover:shadow-lg
+            focus:bg-green-600 focus:shadow-lg focus:outline-none focus:ring-0
+            active:bg-green-700 active:shadow-lg
+            transition
+            duration-150
+            ease-in-out;
+    }
+
+    .btn-info {
+        @apply
+            px-6
+            py-2.5
+            bg-blue-500
+            !text-white
+            font-medium
+            text-xs
+            leading-tight
+            uppercase
+            rounded
+            shadow-md
+            hover:bg-blue-600 hover:shadow-lg
+            focus:bg-blue-600 focus:shadow-lg focus:outline-none focus:ring-0
+            active:bg-blue-700 active:shadow-lg
+            transition
+            duration-150
+            ease-in-out;
+    }
+
+    .btn-warning {
+        @apply
+            px-6
+            py-2.5
+            bg-yellow-500
+            !text-white
+            font-medium
+            text-xs
+            leading-tight
+            uppercase
+            rounded
+            shadow-md
+            hover:bg-yellow-500 hover:shadow-lg
+            focus:bg-yellow-500 focus:shadow-lg focus:outline-none focus:ring-0
+            active:bg-yellow-500 active:shadow-lg
+            transition
+            duration-150
+            ease-in-out;
+    }
+
+    .text-danger {
+        @apply
+            text-red-500
+            text-xs;
+    }
+
+    .bg-success {
+        @apply
+            bg-green-900;
+    }
+}
